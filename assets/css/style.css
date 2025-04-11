@@ -643,12 +643,15 @@ header img {
 
 #listadeprofissionais {
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 70px;
+    margin-top: 30px;
+    margin-bottom: 150px;
+    padding: 10px;
 }
 
 .profissionais {
     flex-direction: column;
-    gap: 30px;
+    gap: 120px;
 }
 
 .profissional {
@@ -656,8 +659,32 @@ header img {
     height: auto;
 }
 
+.profissional-texto h3 {
+    font-size: 30px;
+}
+
+.profissional-texto h4 {
+    font-size: 20px;
+}
+
+.profissional-texto p {
+    font-size: 15px;
+}
+
 #contato form {
-    width: 90%;
+    width: 50%;
+
+}
+
+#contato form label {
+    font-size: 15px;
+}
+
+#contato h2 {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
 }
 
   #whatsapp {
